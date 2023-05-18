@@ -23,6 +23,13 @@ body{
     margin: 0 auto;
 }
 
+.card-8 { 
+    box-shadow: rgba(0, 171, 85, 0.24) 0px 8px 16px 10px; 
+    margin: 0 auto;
+    width: 360px;
+}
+
+
 .block-login  h1{
     text-align: center;
     color: #000;
@@ -98,5 +105,5 @@ body{
 }
 
 .block-login button:hover {
-    background: #ff7b81;
+    background: #3d7553;
 }
