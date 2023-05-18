@@ -1,0 +1,55 @@
+body{
+    background-image: url(imagens/backgroundbody.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Montserrat;
+}
+
+.logobody{
+    background-image: url(imagens/logobody.png);
+    background-repeat: no-repeat;
+    width: 213px;
+    height: 36px;
+    margin: 30px auto;
+}
+
+.block-login{
+    width: 320px;
+    padding: 20px;
+    background: #d0cfcf;
+    border-radius: 5px;
+    border-top: 5px solid #294d37;
+    margin: 0 auto;
+}
+
+.block-login  h1{
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.block-login input{
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #a2a2a2;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.block-login input#username{
+    background-image: url(imagens/iconuser.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 20px top;
+    background-size:18px 80px;
+    
+}
